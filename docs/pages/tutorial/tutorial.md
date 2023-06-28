@@ -67,7 +67,9 @@ You can also visualize the fitting process, by checking the Draw fitting process
 
 Following pressing Curve fit, the fit starts to show each iteration of the fitting process. Please note that this may take a little bit longer as a result of the plotting.
 
+<video src="https://github.com/Campbell-Muscle-Lab/GelBandFitter/assets/98066302/01e91932-f61c-459c-9e6c-8f5cf1f14134" controls="controls" style="max-width: 730px;"></video>
 
-https://github.com/Campbell-Muscle-Lab/GelBandFitter/assets/98066302/71a78f65-bb1a-42af-bc6b-437d127498ca
+
+
 
 
