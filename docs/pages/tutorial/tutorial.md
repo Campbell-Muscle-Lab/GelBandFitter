@@ -33,7 +33,7 @@ An image of your gel should now be displayed in the bottom left of your screen. 
 
 You can now use the mouse to drag a box to define the part of the gel that you want to analyze. The coordinates defining the box will be displayed at the top left of the raw gel image. The selected region will be shown enlarged in two places on the right-hand side of the screen. The mean pixel intensity in horizontal line in the selected region will be shown in the axes at the top right. The optical density profile will be shown at the bottom right.
 
-GelBandFitter starts in the Manual (also called Split) mode. It assumes that you wish to calculate the relative contents of two proteins in your band profile and does this by splitting the band patter at an appropriate point. In the example below, there is a clear minimum in the inter-peak profile and GelBandFitter splits the bands with a horizontal line at this point. GelBandFitter doesn't always make a 'good' automatic decision about where to split the bands. You can override its choice by clicking at a new point on the image.
+GelBandFitter starts in the Manual (also called Split) mode. It assumes that you wish to calculate the relative contents of two proteins in your band profile and does this by splitting the band pattern at an appropriate point. In the example below, there is a clear minimum in the inter-peak profile and GelBandFitter splits the bands with a horizontal line at this point. GelBandFitter doesn't always make a 'good' automatic decision about where to split the bands. You can override its choice by clicking at a new point on the image.
 
 In the example below, the area of the top region (magenta) is 15369 square pixels. The area of the bottom region (green) is 15934 square pixels. The relative area of the bottom band is therefore (15934/(15934+15369)) = 0.509. The appropriate numbers are displayed in the panel labeled 'OutputParameters'.
 
@@ -57,7 +57,7 @@ Curve-fitting is an iterative process - that means you start with a guess and tr
 
 <a href="curve_fit_button.png" target="_blank">![Curve fit button](curve_fit_button.png)</a>
 
-After a few seconds you should see new shapes in the axes in the bottom right of the screen. These are the best-fits of two overlapping Gaussians to the measured densitometry profile. The relative areas are shown in the Output Parameters panel. Note that this method calculated the relative area of the bottom band as 0.583 (a value 16% greater than the Split method).
+After a few seconds, you should see new shapes in the axes in the bottom right of the screen. These are the best-fits of two overlapping Gaussians to the measured densitometry profile. The relative areas are shown in the Output Parameters panel. Note that this method calculated the relative area of the bottom band as 0.583 (a value 16% greater than the Split method).
 
 <a href="curve_fit_result.png" target="_blank">![Curve fit result](curve_fit_result.png)</a>
 
@@ -65,5 +65,9 @@ You can also visualize the fitting process, by checking the Draw fitting process
 
 <a href="draw_fitting_check.png" target="_blank">![Draw fitting check](draw_fitting_check.png)</a>
 
-Following pressing Curve fit, the fit starts show each iteration of the fitting process. Please note that this may take a little bit longer as a result of the plotting.
+Following pressing Curve fit, the fit starts to show each iteration of the fitting process. Please note that this may take a little bit longer as a result of the plotting.
+
+
+https://github.com/Campbell-Muscle-Lab/GelBandFitter/assets/98066302/71a78f65-bb1a-42af-bc6b-437d127498ca
+
 
